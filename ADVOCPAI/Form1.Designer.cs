@@ -51,6 +51,14 @@
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.textBox12 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -250,11 +258,85 @@
             this.maskedTextBox1.TabIndex = 22;
             this.maskedTextBox1.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextBox1_MaskInputRejected);
             // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(13, 222);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(91, 13);
+            this.label10.TabIndex = 23;
+            this.label10.Text = "Número Processo";
+            this.label10.Click += new System.EventHandler(this.label10_Click);
+            // 
+            // textBox9
+            // 
+            this.textBox9.Location = new System.Drawing.Point(16, 238);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(212, 20);
+            this.textBox9.TabIndex = 24;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(231, 222);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(29, 13);
+            this.label11.TabIndex = 25;
+            this.label11.Text = "Vara";
+            this.label11.Click += new System.EventHandler(this.label11_Click);
+            // 
+            // textBox10
+            // 
+            this.textBox10.Location = new System.Drawing.Point(234, 238);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(40, 20);
+            this.textBox10.TabIndex = 26;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(277, 221);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(28, 13);
+            this.label12.TabIndex = 27;
+            this.label12.Text = "Foro";
+            // 
+            // textBox11
+            // 
+            this.textBox11.Location = new System.Drawing.Point(280, 238);
+            this.textBox11.Name = "textBox11";
+            this.textBox11.Size = new System.Drawing.Size(100, 20);
+            this.textBox11.TabIndex = 28;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(383, 222);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(77, 13);
+            this.label13.TabIndex = 29;
+            this.label13.Text = "Movimentação";
+            // 
+            // textBox12
+            // 
+            this.textBox12.Location = new System.Drawing.Point(386, 238);
+            this.textBox12.Name = "textBox12";
+            this.textBox12.Size = new System.Drawing.Size(391, 20);
+            this.textBox12.TabIndex = 30;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.textBox12);
+            this.Controls.Add(this.label13);
+            this.Controls.Add(this.textBox11);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.textBox10);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.textBox9);
+            this.Controls.Add(this.label10);
             this.Controls.Add(this.maskedTextBox1);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.textBox8);
@@ -311,6 +393,14 @@
         private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.MaskedTextBox maskedTextBox1;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.TextBox textBox12;
     }
 }
 
